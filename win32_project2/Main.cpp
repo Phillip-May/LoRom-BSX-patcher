@@ -40,7 +40,7 @@ int main () {
   /* the whole file is now loaded in the memory buffer. */
   	printf("File size: 0x%08X\n",lSize);
 
-	for (long i = 0; i < lSize; i++)
+	for (long i = 0; i < (0x00100000); i++)
 	{
 		if (i < 0x07FB0 || i > 0x07FDF)
 		{
